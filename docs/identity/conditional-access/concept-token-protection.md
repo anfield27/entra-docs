@@ -9,7 +9,7 @@ ms.reviewer: sgrandhi
 ms.custom:
   - sfi-image-nochange
   - ai-gen-docs-bap
-  - ai-gen-title
+  - ai-gen-title 
   - ai-seo-date:08/20/2025
   - ai-gen-description
 ---
@@ -32,8 +32,6 @@ When a user registers a supported device with Microsoft Entra, a PRT is issued a
 | iOS / iPadOS | Preview |
 | macOS | Preview |
 
-> [!NOTE]
-> Token Protection currently supports native applications only. Browser-based applications are not supported.
 
 ## Supported resources
 
@@ -76,9 +74,9 @@ This process helps assess your users' client and app compatibility for token pro
 
 Select the guide for your target platform:
 
-- **Windows**: [Token Protection deployment guide - Windows](deployment-guide-token-protection-windows.md)
-- **iOS, iPadOS, and macOS**: [Token Protection deployment guide - Apple](deployment-guide-token-protection-apple.md)
-
+- **Windows (native apps only)**: [Token Protection deployment guide - Windows](deployment-guide-token-protection-windows.md)
+- **iOS, iPadOS, and macOS (native apps only)**: [Token Protection deployment guide - Apple](deployment-guide-token-protection-apple.md)
+- **Web Applications accessesing the Azure Resource Manager: **
 ## Related content 
 
 [What is a Primary Refresh Token?](../devices/concept-primary-refresh-token.md)
